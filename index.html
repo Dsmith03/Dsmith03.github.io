@@ -3,28 +3,76 @@
    <head>
       <title>Dashayna's Amazing Website</title>
       <style>
-          body {
-              background: rgb(214,176,159);
-              color: rgb(69,25,5);
-              padding: 10px;
-              font-family: arial;
-          }
-          header {
-              font-size: 1.5em;
-              font-weight:bold;
-          }
-          #all-contents {
-              max-width: 800px;
-              margin: auto;
-          }
+    body {
+        background: rgb(125, 198, 205);
+        color: rgb(45, 45, 45);
+        padding: 10px;
+        font-family: arial;
+    }
+    #all-contents {
+        max-width: 800px;
+        margin: auto;
+    }
+
+    /* navigation menu */
+    nav {
+        background: rgb(239, 80, 41);
+        margin: 0 auto;
+        display: flex;
+        padding: 10px;
+    }
+    nav header {
+        display: flex;
+        align-items: center;
+        color: white;
+        flex: 1;
+        margin: 0;
+    }
+    nav ul {
+        list-style-image: none;
+    }
+    nav li {
+        display: inline-block;
+        padding: 0 10px;
+    }
+    nav a {
+        text-decoration: none;
+        color: #fff;
+    }
+
+    /* main container area beneath menu */
+    main {
+        background: rgb(245, 238, 219);
+        display: flex;
+    }
+    .sidebar {
+        margin-right: 25px;
+        padding: 10px;
+    }
+    .sidebar img {
+        width: 200px;
+    }
+    .content {
+        flex: 1;
+        padding: 15px;
+    }
+    header {
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+            
+    .interests header {
+        font-size: 1.25em;
+    }
           
+      
       </style>
   </head>
 
 <body>
-    <h3> Welcome to Dashayna's amazing website</h3>
     <div id="all-contents">
         <nav>
+            <header> Welcome to Dashayna's Amazing website</header>
             <u1> 
                 <li><a href="index.html">Home</a></li>
                 <li><a href="portfolio.html">Portfolio</a></li>
@@ -36,15 +84,17 @@
                 </div>
                 
                 <div class="content">
+                    <header> Dashayna</header>
+                    <p> Student at Fredrick A Douglass High school</p>
                     <section class="interests">
-                        
+                       <header>Interests</header>
+                        <u1>
+                            <li> Music</li>
+                            <li> art</li>
+                            <li> sleeping</li>
+                        </u1>
                     </section>
-                    <header>Interests</header>
-                    <u1>
-                        <li> Music</li>
-                        <li> art</li>
-                        <li> sleeping</li>
-                    </u1>
+                  
                 </div>
             </main>
         
